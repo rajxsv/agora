@@ -29,7 +29,7 @@ let client = AgoraRTC.createClient({  //1 to 1 rtc
     codec: "vp8",
 });
 
-client.init("1a54c4091aad43b8ac322068b3ff6c4b", function() {
+client.init("APP_KEY", function() {
     console.log("client initialized");
 }, function(err) {
     console.log("client init failed ", err);
